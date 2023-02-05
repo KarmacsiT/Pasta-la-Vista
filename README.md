@@ -1,1 +1,1 @@
-# odin-recipes
+In this project, I'm going to demonstrate what I learned so far in the Odin Project regarding basic HTML knowledge including but not limited to various tags and structure.
