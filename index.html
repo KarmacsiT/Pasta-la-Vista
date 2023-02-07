@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Pasta la Vista</title>
-    </head>
-    <body>
-        <h1>Pasta la Vista Recipes</h1>
-        <img src="./images/pasta-dont.gif" alt="Funny muppet show pasta animation">
-        <h2><em>Chef's Recomendation</em></h1>
-        <h3>Pesto Pasta</h2>
-        <a href="./recipes/pestopasta.html">Let's prepare it!</a>
-        <h3>Spaghetti alla Carbonara</h2>
-        <a href="./recipes/spaghetticarbonara.html">Let's prepare it!</a>
-        <h3>Spaghetti Bolognese</h2>
-        <a href="./recipes/spaghettibolognese.html">Let's prepare it!</a>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pasta la Vista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1><span style="color: red">Pasta</span><span style="color: white"> la</span> <span
+                style="color: green">Vista</span></h1>
+    </div>
+
+    <h2 class="under-title">Recipe Selection</h2>
+
+    <div class="card1" onclick="document.location.href='./recipes/spaghettibolognese.html'">
+        <img src="images/spaghetti-bolognesse-card.png" alt="A plate of spaghetti bolognese.">
+        <h3>Spaghetti Bolognese</h3>
+        <p>Spaghetti bolognese consists of spaghetti (long strings of pasta) with an Italian ragu (meat sauce) made with
+            minced beef, bacon and tomatoes, served with Parmesan cheese.</p>
+    </div>
+    <div class="card2" onclick="document.location.href='./recipes/spaghetticarbonara.html'">
+        <img src="images/spaghetti-carbonara-card.png" alt="A plate of spaghetti carbonara.">
+        <h3>Spaghetti Carbonara</h3>
+        <p>Spaghetti carbonara is an Italian main course consisting of spaghetti (long thin strands of pasta) with bacon
+            and a creamy sauce made from eggs, Pecorino or Parmesan and black pepper.</p>
+    </div>
+    <div class="card3" onclick="document.location.href='./recipes/pestopasta.html'">
+        <img src="images/pesto-pasta-card.png" alt="A bowl of pesto pasta.">
+        <h3>Pesto Pasta</h3>
+        <p>Pesto, sauce made especially of fresh basil, garlic, oil, pine nuts, and grated cheese mixed with the pasta
+            of your choice</p>
+    </div>
+    <div class="footnote">
+        <h3>Click on of the following cards to see the receipe of the following dishes!</h3>
+    </div>
+
+</body>
 
 </html>
