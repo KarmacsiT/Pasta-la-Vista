@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Caveat&family=Montserrat&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-family: 'Caveat', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 60vh;
+}
+
+.box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
+    line-height: 0;
+}
+
+.box>img {
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.box:hover {
+    flex: 1 1 50%;
+}
+
+.box:hover>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.description {
+    border: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.description p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 73ch;
+    border: 50px;
+}
+
+ul {
+    list-style-image: url("../images/tomato-list-style.png");
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    padding: 3px;
+    max-width: 75ch;
+}
